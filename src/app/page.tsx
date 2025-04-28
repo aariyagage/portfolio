@@ -70,7 +70,7 @@ export default function HomePage() {
       "date": "Sep 2024 – Dec 2024",
       "description": "Developed a full-stack online bookstore in a 5-member team as part of a Software Engineering course. Led requirements analysis, system design, and functional testing across four project phases. Built class diagrams, use case models, and implemented core bookstore features including user authentication, inventory management, and checkout workflows.",
       "tech": ["Java", "Object-Oriented Design", "Functional Testing", "Software Engineering Principles"],
-      "link": "",
+      "link": "https://github.com/hiitshai/CSE360_Final_Project",
       "image": "/projects/asu-bookstore-preview.png"
     },
     {
@@ -89,6 +89,14 @@ export default function HomePage() {
       "link": "https://github.com/aariyagage/CSE-464-2025-agage5",
       "image": "/projects/CSE464-finalproject.png"
     },      
+    {
+      title: "Portfolio Website",
+      date: "Apr 2025",
+      description: "Designed and built a responsive portfolio website using Next.js 15, TailwindCSS, and Framer Motion. Deployed on Vercel with optimized performance, responsive layouts, and dynamic animations. Implemented SEO best practices and full mobile support.",
+      tech: ["Next.js", "React", "TailwindCSS", "Framer Motion", "Vercel", "TypeScript"],
+      link: "https://portfolio-aariyas-projects.vercel.app/", 
+      image: "/projects/portfolio-preview.png" // you can create a small screenshot of your portfolio homepage
+    },
     
   ];
 
@@ -146,7 +154,7 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-7xl font-extrabold tracking-tight mb-4"
+            className="text-5xl md:text-7xl font-extrabold tracking-tight mb-4"
           >
             Aariya Gage
           </motion.h1>
@@ -169,6 +177,12 @@ export default function HomePage() {
             <Link href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6" />
             </Link>
+            <Link href="https://drive.google.com/file/d/1ZN4BlfkpfJFVR57nc7wPyOQ_SBpAgtBo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+  <button className="border border-neutral-300 dark:border-neutral-700 rounded-full px-4 py-1 text-sm text-neutral-700 dark:text-neutral-300 hover:opacity-80 transition">
+    Resume
+  </button>
+</Link>
+
           </motion.div>
         </section>
 
@@ -189,15 +203,15 @@ export default function HomePage() {
               <h2 className="text-3xl font-extrabold text-neutral-800 dark:text-white heading-section mb-12">about me</h2>
 
               <p className="font-normal text-neutral-700 dark:text-neutral-300">
-                Hey, I&#39;m Aariya — a Computer Science student with a deep love for building things that are useful,
+                Hey, I&#39;m Aariya - a Computer Science student with a deep love for building things that are useful,
                 intentional, and clean. My background spans full-stack development, AI/ML, QA, and product design.
               </p>
               <p className="font-normal text-neutral-700 dark:text-neutral-300">
-               I love sitting at the intersection of clean desogn and functional code. Whether I&#39;m working on frontend interactions, backend logic, or wrangling data for insights. I care about crafting experiences that make sense - & feel good to use.
+               I love sitting at the intersection of clean design and functional code. Whether I&#39;m working on frontend interactions, backend logic, or wrangling data for insights. I care about crafting experiences that make sense - & feel good to use.
               </p>
               <p className="font-normal text-neutral-700 dark:text-neutral-300">
                 Outside of tech, I&#39;m all about creative storytelling. I&#39;m passionate about marketing, social media, and
-                content — the kind that builds community and actually resonates.
+                content - the kind that builds community and actually resonates.
               </p>
               <p className="italic text-sm text-neutral-500">i build with intention</p>
             </motion.div>
@@ -277,10 +291,12 @@ export default function HomePage() {
         </section>
 
         {/* Work Experience */}
-        <section className="px-6 pt-20 pb-32 md:pl-16">
-          <h2 className="text-3xl font-extrabold text-center text-neutral-800 dark:text-white mb-12">
-            work experience
-          </h2>
+        <section className="px-6 pt-10 sm:pb-20 md:pb-20 md:pl-16">
+        <h2 className="text-3xl font-extrabold text-center text-neutral-800 dark:text-white heading-section mb-12">
+  work experience
+</h2>
+
+
           <div className="max-w-4xl mx-auto flex flex-col gap-10">
             {workExperiences.map((exp, idx) => (
               <div key={idx} className="flex flex-col md:flex-row justify-between items-start gap-6">
@@ -309,7 +325,7 @@ export default function HomePage() {
         </section>
 
         {/* Key Skills + Orbiting Tech */}
-<section className="mt-[20rem] sm:mt-[-4rem] w-full px-6 pt-20 pb-32 bg-[#FFFCF7] dark:bg-black">
+<section className="mt-[1rem] sm:mt-[-4rem] w-full px-6 pt-20 pb-32 bg-[#FFFCF7] dark:bg-black">
 <h2 className="text-3xl font-extrabold text-center text-neutral-800 dark:text-white heading-section mb-12">my tech stack & skills</h2>
 {/*<h2 className="text-3xl font-semibold text-center text-neutral-800 dark:text-white mb-12">*/}
 
@@ -375,7 +391,7 @@ export default function HomePage() {
       Whether you want to collaborate, have a cool opportunity, or just want to chat — I&#39;m always happy to connect!
     </p>
     <a
-      href="mailto:aariyagage@example.com"
+      href="mailto:aariyagage@gmail.com"
       className="mt-6 px-6 py-3 rounded-full bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition text-md font-medium"
     >
       Say Hello 👋
