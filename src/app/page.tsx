@@ -35,23 +35,23 @@ export default function HomePage() {
   const project = [
     {
       title: "Brev",
-      date: "Sep 2023 – Present",
+      date: "Sep 2024 – Present",
       description: "Co-founded Brev, an AI-driven study platform transforming user notes into cheat sheets, quizzes, and mnemonic aids. Led full-stack development, built NLP pipelines, and scaled product adoption to 2,000+ students through iterative QA and user testing.",
       tech: ["Node.js", "React", "MongoDB", "Playwright", "TailwindCSS", "AI"],
-      link: "https://github.com/meetbrev/Brev",
+      link: "https://www.meetbrev.com/",
       image: "/projects/brev.png",
     },
     {
       title: "TrendIntel",
-      date: "Mar 2024 – Apr 2024",
-      description: "Built a market intelligence dashboard using Flask and Gemini API to aggregate sentiment analysis, search trends, and stock data into actionable insights",
-      tech: ["Python", "Flask", "Pandas", "yFinance", "Gemini API", "Matplotlib"],
+      date: "Mar 2025 – Apr 2025",
+      description: "Built a market intelligence dashboard using Flask and Gemini API to aggregate sentiment analysis, search trends, and stock data into actionable insights.",
+      tech: ["Python", "Flask", "Pandas", "yFinance", "Gemini API", "Recharts"],
       link: "https://github.com/aariyagage/company-insights-dashboard",
       image: "/projects/trendintel.png",
     },
     {
       title: "Ctrl+Shift",
-      date: "Feb 2024 – Mar 2024",
+      date: "Feb 2025 – Mar 2025",
       description: "Developed a CLI tool and REST API that scrapes and structures Google Trends data in under 10 seconds, streamlining market research workflows.",
       tech: ["Python", "PyTrends", "Flask", "REST API", "Pandas"],
       link: "https://github.com/aariyagage/ctrlshift",
@@ -59,7 +59,7 @@ export default function HomePage() {
     },
     {
       title: "Ramp Debugging Tool",
-      date: "Jan 2024",
+      date: "Jan 2025",
       description: "Debugged and optimized frontend components, fixing 7+ UI bugs related to filtering, pagination, and state management in Ramp’s internal tools.",
       tech: ["React", "JavaScript", "DOM", "Testing", "CodeSandbox"],
       link: "https://codesandbox.io/p/github/aariyagage/ramp-fe-challenge/main?workspaceId=ws_7spd6pu8EL1KMfhCi6X8d3",
@@ -171,10 +171,10 @@ export default function HomePage() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="flex space-x-6 mb-6"
           >
-            <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/aariyagage" target="_blank" rel="noopener noreferrer">
               <Github className="w-6 h-6" />
             </Link>
-            <Link href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.linkedin.com/in/aariya-gage-88468924a/" target="_blank" rel="noopener noreferrer">
               <Linkedin className="w-6 h-6" />
             </Link>
             <Link href="https://drive.google.com/file/d/1ZN4BlfkpfJFVR57nc7wPyOQ_SBpAgtBo/view?usp=sharing" target="_blank" rel="noopener noreferrer">
